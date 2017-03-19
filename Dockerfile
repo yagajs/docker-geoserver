@@ -1,6 +1,6 @@
 # vim:set ft=dockerfile:
 
-FROM openjdk:8
+FROM openjdk:8-alpine
 
 MAINTAINER Arne Schubert <atd.schubert@gmail.com>
 
@@ -8,11 +8,12 @@ ARG GEOSERVER_VERSION=2.10.2
 ENV GEOSERVER_HOME /geoserver
 
 RUN set -x \
+  && apk add --update openssl \
   && wget -O /tmp/geoserver.zip https://downloads.sourceforge.net/project/geoserver/GeoServer/$GEOSERVER_VERSION/geoserver-$GEOSERVER_VERSION-bin.zip \
   && unzip -d /tmp/ /tmp/geoserver.zip \
   && mv /tmp/geoserver-$GEOSERVER_VERSION $GEOSERVER_HOME \
   && rm -rf /tmp/geoserver.zip \
-  && useradd -ms /bin/bash geoserver \
+  && adduser -S geoserver \
   && chown -R geoserver $GEOSERVER_HOME \
   && mkdir -p /docker-entrypoint-initgeoserver.d
 
