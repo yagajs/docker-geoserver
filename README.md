@@ -6,8 +6,32 @@ based on the [official openjdk image](https://hub.docker.com/_/openjdk/).
 ## Supported tags
 
 
-* `2.12.0`, `2`, `2.12` `latest`
-* `2.12.0-alpine`, `2-apline`, `2.12-apline`, `alpine`
+* `2.14.1`, `2.14`, `2`
+* `2.14.1-alpine`, `2.14-alpine`, `2-alpine`
+* `2.14.0`
+* `2.14.0-alpine`
+* `2.13.4`, `2.13`
+* `2.13.4-alpine`, `2.13-alpine`
+* `2.13.3`
+* `2.13.3-alpine`
+* `2.13.2`
+* `2.13.2-alpine`
+* `2.13.1`
+* `2.13.1-alpine`
+* `2.13.0`
+* `2.13.0-alpine`
+* `2.12.5`, `2.12`
+* `2.12.5-alpine`, `2.12-alpine`
+* `2.12.4`
+* `2.12.4-alpine`
+* `2.12.3`
+* `2.12.3-alpine`
+* `2.12.2`
+* `2.12.2-alpine`
+* `2.12.1`
+* `2.12.1-alpine`
+* `2.12.0`
+* `2.12.0-alpine`
 * `2.11.2`, `2.11`
 * `2.11.2-alpine`, `2.11-alpine`
 * `2.11.1`
