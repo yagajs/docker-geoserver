@@ -50,3 +50,7 @@ Before you start to code, we recommend discussing your plans through a
 [GitHub issue](https://github.com/yagajs/docker-geoserver/issues), especially for more ambitious contributions.
 This gives other contributors a chance to point you in the right direction, give you feedback on your design, and help
 you find out if someone else is working on the same thing.
+
+## License
+
+This project is published under [ISC License](LICENSE).
