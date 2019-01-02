@@ -4,7 +4,7 @@ FROM openjdk:8
 
 MAINTAINER Arne Schubert <atd.schubert@gmail.com>
 
-ARG GEOSERVER_VERSION=2.13.2
+ARG GEOSERVER_VERSION=2.13.1
 ENV GEOSERVER_HOME /geoserver
 
 RUN set -x \
